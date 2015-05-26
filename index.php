@@ -7,7 +7,7 @@
 <style>
 body {
   text-align: center;
-  font-size: 16px;
+  font-size: 17px;
   font-family: Papyrus, Helvetica, sans-serif;
 }
 table {
@@ -163,9 +163,9 @@ function weHaveAWinner(a, b, c) {
   else
     return false;
 }
-  /* check rows */
-function checkForWinner() {
 
+function checkForWinner() {
+  /* check rows */
   var a = 0; var b = 1; var c = 2;
   while (c < board.length) {
     if (weHaveAWinner(a, b, c)) {
@@ -258,6 +258,7 @@ function newGame() {
 <body onload="init();">
 <?php
  echo "Mkhabela Phethile 12097561";
+ echo "<br/>";
  echo "<br/>";
  echo "Kamogelo Tswene 12163555";
  echo "<br/>";
